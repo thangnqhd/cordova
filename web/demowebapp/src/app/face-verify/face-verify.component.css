@@ -1,0 +1,124 @@
+.row {
+    max-width: 1310px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.medium-10 {
+    width: 83.33333333%;
+}
+.medium-6 {
+    width: 50%;
+}
+.column,.columns {
+    width: 100%;
+    float: left;
+    padding-left: .9375rem;
+    padding-right: .9375rem;
+}
+.demo-img-container{
+    height: 430px;
+    width: 100%;
+}
+.demo-img-container .demo-img-wrapper{
+    display: inline-block;
+    position: relative;
+    max-height: 430px;
+    max-width: 100%;
+}
+.face-rectangle-f {
+    border-color: #ba0b93;
+}
+.face-rectangle, .object-rectangle{
+    position: absolute;
+    border: solid 3px;
+    border-top-color: currentcolor;
+    border-right-color: currentcolor;
+    border-bottom-color: currentcolor;
+    border-left-color: currentcolor;
+    z-index: 99;
+}
+
+.demo-img-container .demo-img-wrapper {
+ display:inline-block;
+ position:relative;
+ max-height:430px;
+ max-width:100%
+}
+.demo-img-container .demo-img-wrapper img {
+ max-width:100%;
+ max-height:inherit
+}
+.face-rectangle,
+.object-rectangle {
+ position:absolute;
+ border:solid 3px;
+ z-index:99
+}
+.face-rectangle .face-info,
+.object-rectangle .face-info,
+.face-rectangle .object-info,
+.object-rectangle .object-info {
+ visibility:hidden;
+ width:auto;
+ background-color:gray;
+ color:#fff;
+ text-align:center;
+ padding:5px;
+ position:absolute;
+ z-index:100;
+ top:-5px;
+ right:110%;
+ font-size:12px
+}
+.face-rectangle .face-info th,
+.object-rectangle .face-info th,
+.face-rectangle .object-info th,
+.object-rectangle .object-info th {
+ text-align:left;
+ font-weight:600;
+ padding-right:5px
+}
+.face-rectangle .face-info td,
+.object-rectangle .face-info td,
+.face-rectangle .object-info td,
+.object-rectangle .object-info td {
+ text-align:right
+}
+.face-rectangle .face-info:after,
+.object-rectangle .face-info:after,
+.face-rectangle .object-info:after,
+.object-rectangle .object-info:after {
+ content:'';
+ position:absolute;
+ top:50%;
+ left:100%;
+ margin-top:-5px;
+ border-width:5px;
+ border-style:solid;
+ border-color:transparent transparent transparent gray
+}
+.face-rectangle:hover,
+.object-rectangle:hover {
+ z-index:100
+}
+.face-rectangle:hover .face-info,
+.object-rectangle:hover .face-info,
+.face-rectangle:hover .object-info,
+.object-rectangle:hover .object-info {
+ visibility:visible
+}
+.face-rectangle:active .face-info,
+.object-rectangle:active .face-info,
+.face-rectangle:active .object-info,
+.object-rectangle:active .object-info {
+ visibility:visible
+}
+.face-rectangle-m {
+ border-color:#0078d4
+}
+.face-rectangle-f {
+ border-color:#ba0b93
+}
+.face-rectangle-emo {
+ border-color:#0062ad
+}
