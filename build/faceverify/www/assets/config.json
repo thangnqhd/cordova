@@ -1,0 +1,6 @@
+{
+    "apiBaseUrl" : "https://localhost:12345",
+    "cognitiveUrl" : "https://westcentralus.api.cognitive.microsoft.com/face/v1.0",
+    "key1":"686185e0afc44666ac9899ac1b50fba8",
+    "key2":"1d81934cb2424f86b78ee2c6b37cd352"
+}
